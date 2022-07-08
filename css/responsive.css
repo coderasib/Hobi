@@ -1,0 +1,223 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+    .header-area {
+        padding: 0 30px;
+    }
+    .slider-thumb {
+        width: 660px;
+    }
+    .slider-thumb::before {
+        width: 670px;
+        height: 670px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area {
+        padding: 0 10px;
+    }
+    .about-left-content h2 {
+        font-size: 60px;
+    }
+    .about-bg-btn, 
+    .about-btn-border {
+        padding: 15px 40px;
+    }
+    .services-wrapper {
+        padding: 40px 30px;
+    }
+    .skill-text > h2 {
+        font-size: 60px;
+        line-height: 85px;
+    }
+    .skill-text {
+        margin-bottom: 30px;
+    }
+    .skill {
+        margin-bottom: 25px;
+    }
+    .skill-text {
+        margin-top: 0;
+    }
+    .portfolio-menu button {
+        margin: 0 10px;
+    }
+    .cat-bg-img {
+        padding: 55px 45px;
+    }
+    .cat-btn-bg,
+    .cat-btn-border {
+        margin-left: 15px;
+        padding: 19px 40px;
+    }
+    .work-wrapper {
+        padding: 35px 25px;
+    }
+    .work-inner-text > h3 {
+        font-size: 20px;
+    }
+    .work-inner-text {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+    .clients-wrapper {
+        padding: 40px 22px;
+    }
+    .clients-icon-text {
+        margin-left: 25px;
+    }
+    .clients-icon-text > h3 {
+        font-size: 15px;
+    }
+    .news-img img {
+        width: 100%;
+    }
+    
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding: 20px 10px;
+    }
+    .header-right {
+        display: none;
+    }
+    .services-wrapper {
+        padding: 50px 30px;
+    }
+    .work-wrapper {
+        padding: 40px 30px;
+    }
+    .education-images2 {
+        position: inherit;
+        left: 0;
+        top: 0;
+        margin-top: -200px;
+        margin-left: 125px;
+    }
+    .clients-wrapper {
+        padding: 43px 25px;
+    }
+    
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-area {
+        padding: 24px 0;
+    }
+    #sticky-wrapper {
+        margin-bottom: 0;
+    }
+    .header-right {
+        display: none;
+    }
+    .about-left-content h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .about-btn-border {
+        margin-left: 0;
+    }
+    .about-bg-btn {
+        margin-bottom: 15px;
+    }
+    .services-wrapper {
+        padding: 50px 30px;
+    }
+    .skill-text > h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .portfolio-content > h2 {
+        font-size: 50px;
+    }
+    .portfolio-menu {
+        text-align: left;
+    }
+    .portfolio-menu button {
+        margin: 0 6px;
+        margin-bottom: 10px;
+    }
+    .portfolio-menu button::before {
+        bottom: -5px;
+    }
+    .portfolio-content {
+        margin-bottom: 30px;
+    }
+    .cat-bg-img {
+        padding: 40px 30px;
+        padding-bottom: 53px;
+    }
+    .cat-btn-bg {
+        margin-bottom: 15px;
+    }
+    .cat-btn-border {
+        margin-left: 0;
+    }
+    .cat-content > h2 {
+        font-size: 36px;
+        line-height: 58px;
+    }
+    .work-title > h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .work-wrapper {
+        padding: 35px 25px;
+        background: #fff;
+    }
+    .education-title > h2 {
+        font-size: 50px;
+    }
+    .education-images2 {
+        position: inherit;
+        left: 0;
+        top: 0;
+    }
+    .education-icon-img > img {
+        width: 100%;
+    }
+    .education-images1 img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .education-icon-img > i {
+        top: 260px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .team-title.text-center > h2 {
+        font-size: 50px;
+    }
+    .clients-title > h2 {
+        font-size: 40px;
+    }
+    .news-img > img {
+        width: 100%;
+    }
+    .news-left-text > h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .news-right.mb-30 {
+        padding: 30px 21px;
+    }
+    .footer-title > h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+    
+}
